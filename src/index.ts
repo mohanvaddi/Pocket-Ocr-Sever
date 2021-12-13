@@ -5,7 +5,6 @@ dotenv.config();
 import cors from 'cors';
 import path from 'path';
 import { upload } from './utils/multer';
-import fs from 'fs';
 import { cloudinary, dUriPdf } from './utils/cloudinary';
 import usersRoute from './routes/api/users';
 import authRoute from './routes/api/auth';

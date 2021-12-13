@@ -7,7 +7,7 @@ const router = express.Router();
 @access   Public 
 */
 
-router.get('/', (req: Request, res: Response) => {
+router.get('/', (_req: Request, res: Response) => {
     res.send('profile route');
 });
 
